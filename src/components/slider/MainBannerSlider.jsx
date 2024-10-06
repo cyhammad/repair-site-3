@@ -22,8 +22,13 @@ export function MainBannerSlider() {
         }}
         className="z-50 flex flex-col items-center justify-center"
       >
-        <motion.p className="bg-gradient-to-b from-neutral-50 to-neutral-400 bg-clip-text py-4 text-center text-xl font-bold text-transparent md:text-6xl">
+        <motion.p className="bg-gradient-to-b from-neutral-50 to-neutral-400 bg-clip-text py-4 text-center text-2xl font-bold text-transparent md:text-6xl">
           Hire experts and get your job done <br /> Instant Appliances Repairs
+        </motion.p>
+        <motion.p className="max-w-5xl bg-gradient-to-b from-neutral-50 to-neutral-400 bg-clip-text py-4 text-center text-lg text-transparent md:text-2xl">
+          Instant appliances repairs is a reputed appliance repair company in
+          Dubai and Abu Dhabi which provides fast, reliable and affordable home
+          appliance repair services.
         </motion.p>
         <CallAndWhatsappButton />
       </motion.div>

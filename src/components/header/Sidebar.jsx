@@ -9,6 +9,7 @@ import {
 import { MenuIcon } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
+import CallAndWhatsappButton from "../buttons/CallAndWhatsappButton";
 
 export default function Sidebar() {
   return (
@@ -42,6 +43,7 @@ export default function Sidebar() {
           <Link className="hover:underline" href="/contact">
             Contact
           </Link>
+          <CallAndWhatsappButton />
         </div>
       </SheetContent>
     </Sheet>

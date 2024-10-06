@@ -16,6 +16,7 @@ import { AnimatePresence, motion } from "framer-motion";
 import Image from "next/image";
 import { useOutsideClick } from "@/hooks/use-outside-click";
 import { useRouter } from "next/navigation";
+import CallAndWhatsappButton from "../buttons/CallAndWhatsappButton";
 
 export const CarouselContext = createContext({
   onCardClose: () => {},
@@ -180,19 +181,25 @@ export const Card = ({ card, index, layout = false }) => {
         className="relative z-10 flex h-80 w-56 flex-col items-start justify-start overflow-hidden rounded-3xl bg-gray-100 dark:bg-neutral-900 md:h-[40rem] md:w-96"
       >
         <div className="pointer-events-none absolute inset-x-0 top-0 z-30 h-full bg-gradient-to-b from-black/50 via-transparent to-transparent" />
-        <div className="relative z-40 p-8">
-          <motion.p
-            layoutId={layout ? `category-${card.category}` : undefined}
-            className="text-left font-sans text-sm font-medium text-white md:text-base"
-          >
-            {card.category}
-          </motion.p>
-          <motion.p
-            layoutId={layout ? `title-${card.title}` : undefined}
-            className="mt-2 max-w-xs text-left font-sans text-xl font-semibold text-white [text-wrap:balance] md:text-3xl"
-          >
-            {card.title}
-          </motion.p>
+        <div className="relative z-40 flex h-full w-full flex-col justify-between p-8">
+          <div className="flex flex-col gap-1">
+            <motion.p
+              layoutId={layout ? `category-${card.category}` : undefined}
+              className="text-left font-sans text-sm font-medium text-white md:text-base"
+            >
+              {card.category}
+            </motion.p>
+            <motion.p
+              layoutId={layout ? `title-${card.title}` : undefined}
+              className="mt-2 max-w-xs text-left font-sans text-xl font-semibold text-white [text-wrap:balance] md:text-3xl"
+            >
+              {card.title}
+            </motion.p>
+          </div>
+          <span className="w-full rounded-full bg-white px-3 py-2 text-xl">
+            Hire us now
+          </span>
+          {/* <CallAndWhatsappButton /> */}
         </div>
         <BlurImage
           src={card.src}

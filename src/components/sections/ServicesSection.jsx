@@ -9,10 +9,13 @@ export function ServicesSection() {
   ));
 
   return (
-    <div className="h-full w-full bg-secondary py-10">
-      <h2 className="mx-auto max-w-7xl pl-4 text-center text-xl font-bold text-neutral-800 dark:text-neutral-200 md:text-5xl">
+    <div className="flex h-full w-full flex-col py-10">
+      <h2 className="mx-auto max-w-7xl pl-4 text-center text-xl font-bold md:text-5xl">
         Our Services
       </h2>
+      <span className="text-center text-lg text-black/80">
+        We provide a wide range of services to our customers.
+      </span>
       <Carousel items={cards} />
     </div>
   );
@@ -54,43 +57,43 @@ const data = [
   {
     category: "We provide",
     title: "Washing Machine Repair",
-    src: "/b-3.jpg",
+    src: "/w.jpeg",
     content: <DummyContent />,
   },
   {
     category: "We provide",
     title: "Refrigerator Repair",
-    src: "/b-3.jpg",
+    src: "/f.jpeg",
     content: <DummyContent />,
   },
   {
     category: "We provide",
     title: "Dishwasher Repair",
-    src: "/b-3.jpg",
+    src: "/ds.jpeg",
     content: <DummyContent />,
   },
   {
     category: "We provide",
     title: "Dryer Repair",
-    src: "/b-3.jpg",
+    src: "/d.jpeg",
     content: <DummyContent />,
   },
   {
     category: "We provide",
     title: "TV Repair",
-    src: "/b-3.jpg",
+    src: "/t.jpeg",
     content: <DummyContent />,
   },
   {
     category: "We provide",
     title: "Gas Oven Repair",
-    src: "/b-3.jpg",
+    src: "/o.jpeg",
     content: <DummyContent />,
   },
   {
     category: "We provide",
     title: "Stove / Cooker Repair",
-    src: "/b-3.jpg",
+    src: "/s.jpg",
     content: <DummyContent />,
   },
 ];

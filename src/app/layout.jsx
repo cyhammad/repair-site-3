@@ -6,6 +6,7 @@ import { Button } from "@/components/ui/button";
 import { phone } from "@/lib/phone";
 import CallAndWhatsappButton from "@/components/buttons/CallAndWhatsappButton";
 import Footer from "@/components/footer/Footer";
+import FixedButtons from "@/components/buttons/FixedButtons";
 
 const font = Afacad({
   subsets: ["latin"],
@@ -35,6 +36,7 @@ export default function RootLayout({ children }) {
           <Header />
           {children}
           <Footer />
+          <FixedButtons />
         </div>
       </body>
     </html>
