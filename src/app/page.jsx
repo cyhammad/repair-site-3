@@ -1,5 +1,6 @@
 import AboutSection from "@/components/sections/AboutSection";
 import CompanySection from "@/components/sections/CompanySection";
+import ContactSection from "@/components/sections/ContactSection";
 import OurObjectivesSection from "@/components/sections/OurObjectivesSection";
 import { ServicesSection } from "@/components/sections/ServicesSection";
 import { MainBannerSlider } from "@/components/slider/MainBannerSlider";
@@ -14,6 +15,7 @@ export default function Home() {
         <OurObjectivesSection />
         <ServicesSection />
         <CompanySection />
+        <ContactSection />
       </div>
     </div>
   );
