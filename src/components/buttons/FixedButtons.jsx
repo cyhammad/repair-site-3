@@ -2,7 +2,7 @@ import { Button } from "../ui/button";
 import Image from "next/image";
 
 export default function FixedButtons() {
-  const phone = "+1234567890"; // Example phone number
+  const phone = "+971558560613"; // Example phone number
 
   return (
     <div className="pointer-events-none fixed bottom-0 flex w-full items-center justify-center z-50 p-5">
