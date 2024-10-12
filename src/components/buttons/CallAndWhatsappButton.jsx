@@ -9,7 +9,7 @@ export default function CallAndWhatsappButton() {
     <div className="flex items-center gap-1">
       <Button
         onClick={() => {
-          window.location.href = `tel:${phone}`;
+          window.open(`tel:${phone}`, "_self"); // Opens the phone dialer
         }}
         className="gap-1"
         variant="secondary"
@@ -19,7 +19,7 @@ export default function CallAndWhatsappButton() {
       </Button>
       <Button
         onClick={() => {
-          window.location.href = `https://wa.me/${phone}`;
+          window.open(`https://wa.me/${phone}`, "_blank"); // Opens WhatsApp
         }}
         className="gap-1"
         variant="destructive"

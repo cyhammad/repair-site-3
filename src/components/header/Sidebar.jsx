@@ -9,7 +9,7 @@ import {
   SheetTitle,
   SheetTrigger,
 } from "@/components/ui/sheet";
-import { MenuIcon } from "lucide-react";
+import { ChevronDown, MenuIcon } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 import CallAndWhatsappButton from "../buttons/CallAndWhatsappButton";
@@ -48,8 +48,11 @@ export default function Sidebar() {
             </Link>
           </SheetClose>
           <div className="flex flex-col">
-            <button onClick={() => setServicesDropdown(!servicesDropdown)}>
-              Services
+            <button className="flex items-center justify-center gap-1 pl-4" onClick={() => setServicesDropdown(!servicesDropdown)}>
+              Services{" "}
+              <span className={cn(servicesDropdown ? "rotate-180" : "rotate-0", "transition-all ease-in duration-150")}>
+                <ChevronDown size={20} />
+              </span>
             </button>
             <div
               className={cn(
