@@ -53,11 +53,22 @@ export default function RootLayout({ children }) {
 
         {/* Other head elements... */}
         {/* Google Tag Manager - Global base code */}
+        <Script dangerouslySetInnerHTML={{ __html: `
+          (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+          new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+          j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+          'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+          })(window,document,'script','dataLayer','GTM-N9RXZ2LM');
+        ` }} />
+
       
       </head>
       <body
         className={`${font.className} flex w-full flex-col items-center justify-center`}
       >
+          <noscript>
+          <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-N9RXZ2LM" height="0" width="0" style={{ display: "none", visibility: "hidden" }} />
+        </noscript>
         <div className="flex w-full items-center justify-center bg-primary py-1 pl-3 pr-1 text-white">
           <div className="flex w-full max-w-7xl items-center justify-between gap-2">
             <h1 className="text-">Hire us:</h1>
@@ -67,6 +78,7 @@ export default function RootLayout({ children }) {
         </div>
         <div className="flex w-full flex-col rounded-md">
           <Header />
+
           {children}
           <Footer />
           <FixedButtons />

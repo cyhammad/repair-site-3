@@ -471,3 +471,10 @@ export const data = {
     image: "/s.jpg",
   },
 };
+
+
+
+
+
+
+
