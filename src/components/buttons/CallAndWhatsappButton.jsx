@@ -6,7 +6,13 @@ import Image from "next/image";
 
 export default function CallAndWhatsappButton() {
   const handleCallClick = () => {
-    
+    const telLink = document.createElement('a');
+    telLink.href = `tel:${phone}`;
+    telLink.click();
+  
+    // Optionally open the phone dialer
+  
+   
 
     // Open the phone dialer
     window.open(`tel:${phone}`, "_self");
