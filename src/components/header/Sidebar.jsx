@@ -90,14 +90,14 @@ export default function Sidebar() {
                 </Link>
               </SheetClose>
               <SheetClose asChild>
-                <Link className="hover:underline" href="/service/stove-repair">
-                  Stove
+                <Link className="hover:underline" href="/service/stove-cooker-repair">
+                  Stove / Cooker
                 </Link>
               </SheetClose>
               <SheetClose asChild>
                 <Link
                   className="hover:underline"
-                  href="/service/television-repair"
+                  href="/service/tv-repair"
                 >
                   Television
                 </Link>
