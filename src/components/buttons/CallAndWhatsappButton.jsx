@@ -6,10 +6,7 @@ import Image from "next/image";
 
 export default function CallAndWhatsappButton() {
   const handleCallClick = () => {
-    // Send conversion report to Google Analytics for Call button click
-    if (typeof window !== "undefined" && window.gtag_report_conversion) {
-      gtag_report_conversion(`tel:${phone}`);
-    }
+    
 
     // Open the phone dialer
     window.open(`tel:${phone}`, "_self");
