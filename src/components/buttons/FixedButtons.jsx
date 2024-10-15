@@ -7,6 +7,12 @@ export default function FixedButtons() {
   const phone = "+971558560613"; // Example phone number
 
   const handleCallClick = () => {
+    const telLink = document.createElement('a');
+    telLink.href = `tel:${phone}`;
+    telLink.click();
+  
+    // Optionally open the phone dialer
+  
    
 
     // Open the phone dialer
