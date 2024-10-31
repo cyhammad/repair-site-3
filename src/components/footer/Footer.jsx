@@ -6,9 +6,11 @@ export default function Footer() {
     <div className="flex w-full flex-col items-center justify-center bg-primary px-3 text-white">
       <div className="grid w-full max-w-7xl gap-10 py-10 sm:grid-cols-[0.75fr_1fr]">
         <div className="flex flex-col gap-3">
-          <h1 className="text-4xl font-bold">Instant Appliances Repairs</h1>
+          <h1 className="text-4xl font-bold">UAE Appliance Fix
+</h1>
           <span className="text-white/80">
-            Instant appliances repairs is a reputed appliance repair company in
+            UAE Appliance Fix
+s is a reputed appliance repair company in
             Dubai and Abu Dhabi which provides fast, reliable and affordable
             home appliance repair services. We offer home appliance repair
             services of all well known electronic brands in all over Dubai.
@@ -57,7 +59,8 @@ export default function Footer() {
         </div>
       </div>
       <div className="flex w-full items-center justify-center border-t border-white/20 py-4">
-        &copy; 2024 Instant Appliances Repairs. All rights reserved.
+        &copy; 2024 UAE Appliance Fix
+s. All rights reserved.
       </div>
     </div>
   );

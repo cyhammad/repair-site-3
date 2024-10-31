@@ -23,12 +23,13 @@ export function MainBannerSlider() {
         className="z-50 flex flex-col items-center justify-center"
       >
         <motion.p className="bg-gradient-to-b from-neutral-50 to-neutral-400 bg-clip-text py-4 text-center text-2xl font-bold text-transparent md:text-6xl">
-          Hire experts and get your job done <br /> Instant Appliances Repairs
-        </motion.p>
+        Fast, reliable repairs for a hassle-free home.        </motion.p>
         <motion.p className="max-w-5xl bg-gradient-to-b from-neutral-50 to-neutral-400 bg-clip-text py-4 text-center text-lg text-transparent md:text-2xl">
-          Instant appliances repairs is a reputed appliance repair company in
-          Dubai and Abu Dhabi which provides fast, reliable and affordable home
-          appliance repair services.
+        Our skilled technicians are committed to restoring your appliances
+              to peak performance, ensuring your comfort and convenience. From
+              fixing minor glitches to tackling major breakdowns, we've got you
+              covered. Experience top-notch service that keeps your household
+              running smoothly!
         </motion.p>
         <CallAndWhatsappButton />
       </motion.div>

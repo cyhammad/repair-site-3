@@ -28,7 +28,7 @@ export default function ContactSection() {
           <div className="flex py-5">
             <CallAndWhatsappButton />
           </div>
-          <h1 className="text-3xl">Why Choose Instant Appliances Repairs?</h1>
+          <h1 className="text-3xl">Why Choose UAE Appliance Fix?</h1>
           <ul className="list-disc pl-5 py-2">
             <li>
               <b>Experienced Technicians:</b> Our team has extensive experience

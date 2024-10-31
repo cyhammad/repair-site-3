@@ -33,7 +33,8 @@ export default function ServicePage({ params }) {
               highly trained and provide the best customer service available to
               you. We are committed to providing you with the best service
               possible.
-              <br /> Instant appliances repairs is a reputed appliance repair
+              <br /> UAE Appliance Fix
+s is a reputed appliance repair
               company in Dubai and Abu Dhabi which provides fast, reliable and
               affordable home appliance repair services.
             </span>
@@ -43,7 +44,8 @@ export default function ServicePage({ params }) {
               Arrange your appointment easily right now!
             </h1>
             <span className="text-white/80">
-              After appointment instant appliances repair team will reach you
+              After appointment UAE Appliance Fix
+ team will reach you
               within 24 hrs.
             </span>
             <div className="mt-5">

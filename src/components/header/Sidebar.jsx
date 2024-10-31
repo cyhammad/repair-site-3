@@ -27,10 +27,12 @@ export default function Sidebar() {
         <SheetHeader>
           <SheetTitle className="flex flex-col items-center justify-center text-center text-2xl">
             <Image src="/logo.png" width={100} height={100} />
-            Instant Appliances Repairs
+            UAE Appliance Fix
+s
           </SheetTitle>
           <SheetDescription className="text-center sm:text-lg">
-            Instant Appliances Repairs is a home appliances repair service in
+            UAE Appliance Fix
+s is a home appliances repair service in
             Dubai and Abu Dhabi, that provides washing machine repair,
             refrigerator repair, dishwasher repair, dryer repair, stove and
             cooker repair, gas oven repair and television repair.

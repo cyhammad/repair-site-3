@@ -3,12 +3,12 @@ import { phone } from "./phone";
 export const data = {
   "refrigerator-repair": {
     shortDesc:
-      "Are you looking for refrigerator repair services in Dubai? Instant Appliances repairs provides complete refrigerator repair services at affordable rates.",
+      "Are you looking for refrigerator repair services in Dubai? UAE Appliance Fix provides complete refrigerator repair services at affordable rates.",
     content: (
       <>
         <p className="te">
           Looking for top-notch refrigerator repair services in Dubai?{" "}
-          <b className="text-xl">Instant Appliances Repairs</b> is your go-to
+          <b className="text-xl">UAE Appliance Fix</b> is your go-to
           solution! Call us at <b>{phone}</b> for swift and urgent refrigerator
           repairs. With over five years of experience, our company has earned a
           stellar reputation for reliability and professionalism. Our skilled
@@ -20,11 +20,11 @@ export const data = {
           refrigerators are essential for preserving food and ensuring a steady
           supply of cold water. A malfunctioning refrigerator can disrupt your
           daily routine and cause significant inconvenience. But don't worry,{" "}
-          <b className="text-xl">Instant Appliances Repairs</b> is here to
+          <b className="text-xl">UAE Appliance Fix</b> is here to
           resolve your refrigerator problems quickly and efficiently. Trust us
           to keep your appliances running smoothly and your food fresh.
         </p>
-        <h1 className="text-3xl">Why Choose Instant Appliances Repairs?</h1>
+        <h1 className="text-3xl">Why Choose UAE Appliance Fix?</h1>
         <ul className="list-disc pl-5">
           <li>
             <b>Experienced Technicians:</b> Our team has extensive experience
@@ -69,12 +69,12 @@ export const data = {
   },
   "washing-machine-repair": {
     shortDesc:
-      "Are you looking for washing machine repair services in Dubai? Instant Appliances repairs provides complete washing machine repair services at affordable rates.",
+      "Are you looking for washing machine repair services in Dubai? UAE Appliance Fix provides complete washing machine repair services at affordable rates.",
     content: (
       <>
         <p className="te">
           Looking for top-notch washing machine repair services in Dubai?
-          Instant Appliances Repairs is your go-to solution! Call us at{" "}
+          UAE Appliance Fix is your go-to solution! Call us at{" "}
           <b>{phone}</b> for swift and urgent washing machine repairs. With over
           five years of experience, our company has earned a stellar reputation
           for reliability and professionalism. Our skilled and dedicated staff
@@ -90,7 +90,7 @@ export const data = {
           quickly and efficiently. Trust us to keep your appliances running
           smoothly and your laundry fresh.
         </p>
-        <h1 className="text-3xl">Why Choose Instant Appliances Repairs?</h1>
+        <h1 className="text-3xl">Why Choose UAE Appliance Fix?</h1>
         <ul className="list-disc pl-5">
           <li>
             <b>Experienced Technicians:</b> Our team has extensive experience
@@ -139,7 +139,7 @@ export const data = {
   },
   "dishwasher-repair": {
     shortDesc:
-      "Are you looking for dishwasher repair services in Dubai? Instant Appliances repairs provides complete dishwasher repair services at affordable rates.",
+      "Are you looking for dishwasher repair services in Dubai? UAE Appliance Fix provides complete dishwasher repair services at affordable rates.",
     content: (
       <>
         <p className="te">
@@ -160,7 +160,7 @@ export const data = {
           efficiently. Trust us to keep your appliances running smoothly and
           your dishes sparkling clean.
         </p>
-        <h1 className="text-3xl">Why Choose Instant Appliances Repairs?</h1>
+        <h1 className="text-3xl">Why Choose UAE Appliance Fix?</h1>
         <ul className="list-disc pl-5">
           <li>
             <b>Experienced Technicians:</b> Our team has extensive experience
@@ -209,7 +209,7 @@ export const data = {
   },
   "dryer-repair": {
     shortDesc:
-      "Are you looking for dryer repair services in Dubai? Instant Appliances repairs provides complete dryer repair services at affordable rates.",
+      "Are you looking for dryer repair services in Dubai? UAE Appliance Fix provides complete dryer repair services at affordable rates.",
     content: (
       <>
         <p className="te">
@@ -225,12 +225,12 @@ export const data = {
         <p className="">
           Dryers are essential for maintaining a clean and comfortable home. A
           malfunctioning dryer can disrupt your daily routine and cause
-          significant inconvenience. But don’t worry, Instant Appliances Repairs
+          significant inconvenience. But don’t worry, UAE Appliance Fix
           is here to resolve your dryer problems quickly and efficiently. Trust
           us to keep your appliances running smoothly and your clothes fresh and
           dry.
         </p>
-        <h1 className="text-3xl">Why Choose Instant Appliances Repairs?</h1>
+        <h1 className="text-3xl">Why Choose UAE Appliance Fix?</h1>
         <ul className="list-disc pl-5">
           <li>
             <b>Experienced Technicians:</b> Our team has extensive experience
@@ -278,7 +278,7 @@ export const data = {
   },
   "tv-repair": {
     shortDesc:
-      "Are you looking for TV repair services in Dubai? Instant Appliances repairs provides complete TV repair services at affordable rates.",
+      "Are you looking for TV repair services in Dubai? UAE Appliance Fix provides complete TV repair services at affordable rates.",
     content: (
       <>
         <p className="te">
@@ -293,11 +293,11 @@ export const data = {
         <p className="">
           TVs are essential for entertainment and relaxation. A malfunctioning
           TV can disrupt your viewing experience and cause significant
-          inconvenience. But don’t worry, Instant Appliances Repairs is here to
+          inconvenience. But don’t worry, UAE Appliance Fix is here to
           resolve your TV problems quickly and efficiently. Trust us to keep
           your appliances running smoothly and your entertainment uninterrupted.
         </p>
-        <h1 className="text-3xl">Why Choose Instant Appliances Repairs?</h1>
+        <h1 className="text-3xl">Why Choose UAE Appliance Fix?</h1>
         <ul className="list-disc pl-5">
           <li>
             <b>Experienced Technicians:</b> Our team has extensive experience
@@ -341,7 +341,7 @@ export const data = {
   },
   "gas-oven-repair": {
     shortDesc:
-      "Are you looking for gas oven repair services in Dubai? Instant Appliances repairs provides complete gas oven repair services at affordable rates.",
+      "Are you looking for gas oven repair services in Dubai? UAE Appliance Fix provides complete gas oven repair services at affordable rates.",
     content: (
       <>
         <p className="te">
@@ -362,7 +362,7 @@ export const data = {
           and efficiently. Trust us to keep your appliances running smoothly and
           your meals perfectly cooked.
         </p>
-        <h1 className="text-3xl">Why Choose Instant Appliances Repairs?</h1>
+        <h1 className="text-3xl">Why Choose UAE Appliance Fix?</h1>
         <ul className="list-disc pl-5">
           <li>
             <b>Experienced Technicians:</b> Our team has extensive experience
@@ -406,7 +406,7 @@ export const data = {
   },
   "stove-cooker-repair": {
     shortDesc:
-      "Are you looking for stove cooker repair services in Dubai? Instant Appliances repairs provides complete stove cooker repair services at affordable rates.",
+      "Are you looking for stove cooker repair services in Dubai? UAE Appliance Fix provides complete stove cooker repair services at affordable rates.",
     content: (
       <>
         <p className="te">
@@ -423,11 +423,11 @@ export const data = {
           Stove cookers are essential for cooking delicious meals and baking
           scrumptious treats. A malfunctioning stove cooker can disrupt your
           cooking routine and cause significant inconvenience. But don’t worry,
-          Instant Appliances Repairs is here to resolve your stove cooker
+          UAE Appliance Fix is here to resolve your stove cooker
           problems quickly and efficiently. Trust us to keep your appliances
           running smoothly and your meals perfectly cooked.
         </p>
-        <h1 className="text-3xl">Why Choose Instant Appliances Repairs?</h1>
+        <h1 className="text-3xl">Why Choose UAE Appliance Fix?</h1>
         <ul className="list-disc pl-5">
           <li>
             <b>Experienced Technicians:</b> Our team has extensive experience

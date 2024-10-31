@@ -17,7 +17,7 @@ const font = Afacad({
 });
 
 export const metadata = {
-  title: "Instant Appliances Repair",
+  title: "UAE Appliance Fix",
   description: "Best home appliances repait site in Dubai and Abu Dhabi",
 };
 
