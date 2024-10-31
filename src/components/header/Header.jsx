@@ -7,7 +7,7 @@ export default function Header() {
     <div className="flex w-full max-w-7xl items-center justify-between gap-5">
       <div className="flex items-center">
         {/* Inline SVG logo */}
-        <div className="w-[40px] h-[40px] ">
+        <div className="w-[40px] h-[40px] ml-4">
           <svg
             fill="#000000"
             height="100%"
@@ -37,7 +37,7 @@ export default function Header() {
             </g>
           </svg>
         </div>
-        <h1 className="text-lg font-bold sm:text-2xl ml-4">
+        <h1 className="text-lg font-bold sm:text-2xl ml-2">
         UAE Appliance Fix
         </h1>
       </div>
